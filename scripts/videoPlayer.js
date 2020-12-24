@@ -40,7 +40,7 @@ export const videoPlayerInit = () => {
         videoPlayer.currentTime = 0;
     };
 //выводим минуты секунды ввиде 00:00 при помощи тернарного оператора
-    const addZero = n => n < 10 ? '0' + n : n; //условие ? (условие верно) : (условие ложное)
+    //const addZero = n => n < 10 ? '0' + n : n; //условие ? (условие верно) : (условие ложное)
     //Запуск функции togglePla по клику. Реализация клика на кнопки плэй пауза
     videoPlayer.addEventListener('click', togglePlay);
     videoButtonPlay.addEventListener('click', togglePlay);
